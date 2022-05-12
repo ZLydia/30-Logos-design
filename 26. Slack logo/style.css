@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: m 0;
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #3f1e47;
+  font-family: "Source Sans Pro";
+}
+
+.content-slack-fluid {
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 52%;
+  width: 800px;
+  height: 600px;
+}
+
+.slack-accessories1 {
+  width: 205px;
+  height: 90px;
+  border-radius: 50px;
+  background-color: #00ccff;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  top: 45%;
+  left: 30%;
+}
+
+.slack-accessories2 {
+  width: 95px;
+  height: 95px;
+  border-radius: 50px;
+  background-color: #00ccff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: -80%;
+  left: 75%;
+  border-bottom-right-radius: 0px;
+}
+
+.slack-accessories3 {
+  width: 90px;
+  height: 205px;
+  background-color: #ff0066;
+  border-radius: 50px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 80%;
+  top: 245%;
+}
+
+.slack-accessories4 {
+  width: 95px;
+  height: 95px;
+  border-radius: 50px;
+  background-color: #ff0066;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 185%;
+  left: 25%;
+  border-top-right-radius: 0px;
+}
+
+.slack-accessories5 {
+  width: 205px;
+  height: 90px;
+  border-radius: 50px;
+  background-color: orange;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  top: 182.5%;
+  left: 164.5%;
+}
+
+.slack-accessories6 {
+  width: 95px;
+  height: 95px;
+  border-radius: 50px;
+  background-color: orange;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 310%;
+  left: 140%;
+  border-top-left-radius: 0px;
+}
+
+.slack-accessories7 {
+  width: 90px;
+  height: 205px;
+  background-color: #0dcf6e;
+  border-radius: 50px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 134%;
+  top: -17%;
+}
+
+.slack-accessories8 {
+  width: 95px;
+  height: 95px;
+  border-radius: 50px;
+  background-color: #0dcf6e;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 43%;
+  left: 189.8%;
+  border-bottom-left-radius: 0px;
+}
+
+@media screen and (max-width: 335px) {
+  .content-slack-fluid {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 22%;
+    width: 100px;
+    height: -100px;
+  }
+}
