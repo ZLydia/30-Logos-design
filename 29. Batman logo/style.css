@@ -1,0 +1,129 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(60deg,#303030,#000000);
+}
+.container {
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    height:150px;
+    width:250px;
+    position:relative;
+    overflow:hidden;
+}
+.circle{
+    position:absolute;
+    height:130px;
+    width:230px;
+    border-radius:50%;
+    border:transparent;
+    background:#FFDF54;
+    top:3px;
+    left:4px;
+    overflow:hidden;
+}
+.bat-logo{
+    background:#000;
+    position:absolute;
+    height:112px;
+    width:213px;
+    border-radius:50%;
+    top:9px;
+    left:9px;
+}
+.s1{
+    background:#FFDF54;
+    position:absolute;
+    height:70px;
+    width:33px;
+    border-radius:50%;
+    top:67px;
+    left:44px;
+    transform: rotate(-41deg);
+}
+.s2{
+    background:#FFDF54;
+    position:absolute;
+    height:70px;
+    width:38px;
+    border-radius:50%;
+    top:73px;
+    left:68px;
+    transform: rotate(-15deg);
+}
+.s3{
+    background:#FFDF54;
+    position:absolute;
+    height:70px;
+    width:33px;
+    border-radius:50%;
+    top:67px;
+    right:44px;
+    transform: rotate(41deg);
+}
+.s4{
+    background:#FFDF54;
+    position:absolute;
+    height:70px;
+    width:38px;
+    border-radius:50%;
+    top:73px;
+    right:68px;
+    transform: rotate(15deg);
+}
+.s5{
+    background:#FFDF54;
+    position:absolute;
+    height:40px;
+    width:37px;
+    border-radius:50%;
+    top:0px;
+    left:57px;
+    transform: rotate(15deg);
+}
+.s6{
+    background:#FFDF54;
+    position:absolute;
+    height:40px;
+    width:37px;
+    border-radius:50%;
+    top:0px;
+    right:57px;
+    transform: rotate(15deg);
+}
+.sq1{
+    background:#FFDF54;
+    position:absolute;
+    height:20px;
+    width:20px;
+    top:0px;
+    left:74px;
+}
+.sq2{
+    background:#FFDF54;
+    position:absolute;
+    height:20px;
+    width:20px;
+    top:0px;
+    right:74px;
+}
+.trap{
+    top:0px;
+    left:95px;
+    position:absolute;
+    border-bottom: 12px solid #FFDF54;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    height: 0;
+    width: 11px;
+    transform: rotate(180deg);
+}
