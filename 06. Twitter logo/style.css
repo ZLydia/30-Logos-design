@@ -1,0 +1,193 @@
+body {
+    text-align: center;
+}
+
+#logo-container {
+    background: transparent;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    width: 400px;
+}
+
+#sar {
+    background: rgb(0, 153, 255);
+    border-radius: 50%;
+    bottom: 129px;
+    height: 110px;
+    left: 119px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(-25deg);
+    width: 110px;
+    z-index: 16;
+}
+
+#gardan {
+    background: rgb(0, 153, 255);
+    border-radius: 50%;
+    bottom: 90px;
+    height: 180px;
+    left: 157px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(8deg);
+    width: 105px;
+    z-index: 10;
+}
+
+#par1 {
+    background: rgb(0, 153, 255);
+    border-radius: 50%;
+    bottom: 180px;
+    height: 120px;
+    left: 40px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(25deg);
+    width: 150px;
+    z-index: 7;
+}
+
+#par1-overlay {
+    background: #fff;
+    border-radius: 50%;
+    bottom: 230px;
+    height: 80px;
+    left: 10px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(15deg);
+    width: 200px;
+    z-index: 8;
+}
+
+#par2 {
+    background: rgb(0, 153, 255);
+    border-radius: 50%;
+    bottom: 140px;
+    height: 100px;
+    left: 20px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(15deg);
+    width: 150px;
+    z-index: 5;
+}
+
+#par2-overlay {
+    background: #fff;
+    border-radius: 50%;
+    bottom: 180px;
+    height: 50px;
+    left: -10px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(5deg);
+    width: 75px;
+    z-index: 6;
+}
+
+#par3 {
+    background: rgb(0, 153, 255);
+    border-radius: 50%;
+    bottom: 80px;
+    height: 100px;
+    left: 10px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(-15deg);
+    width: 100px;
+    z-index: 3;
+}
+
+#par3-overlay {
+    background: #fff;
+    border-radius: 50%;
+    bottom: 130px;
+    height: 50px;
+    left: -15px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(0deg);
+    width: 90px;
+    z-index: 4;
+}
+
+#par4 {
+    background: rgb(0, 153, 255);
+    border-radius: 50%;
+    bottom: -10px;
+    height: 180px;
+    left: -45px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(-20deg);
+    width: 270px;
+    z-index: 1;
+}
+
+#par4-overlay {
+    background: #fff;
+    border-radius: 50%;
+    height: 85px;
+    left: -70px;
+    position: absolute;
+    bottom: 40px;
+    transform-origin: 0 0;
+    transform: rotate(-18deg);
+    width: 150px;
+    z-index: 2;
+}
+
+#nok-top {
+    background: rgb(0, 153, 255);
+    border-radius: 50%;
+    bottom: 195px;
+    height: 50px;
+    left: 180px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(-35deg);
+    width: 85px;
+    z-index: 14;
+}
+
+#nok-top-overlay { 
+    background: #fff;
+    border-radius: 50%;
+    bottom: 230px;
+    height: 50px;
+    left: 180px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(-20deg);
+    width: 110px;
+    z-index: 15;
+}
+
+#nok-bottom {
+    background: rgb(0, 153, 255);
+    border-radius: 50%;
+    bottom: 167px;
+    height: 50px;
+    left: 165px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(-35deg);
+    width: 125px;
+    z-index: 12;
+}
+
+#nok-bottom-overlay { 
+    background: #fff;
+    border-radius: 50%;
+    bottom: 218px;
+    height: 50px;
+    left: 190px;
+    position: absolute;
+    transform-origin: 0 0;
+    transform: rotate(-15deg);
+    width: 110px;
+    z-index: 13;
+}
