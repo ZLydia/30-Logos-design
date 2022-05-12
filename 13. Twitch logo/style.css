@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 15vw;
+  height: 15vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.t,
+.t2 {
+  height: 100%;
+}
+.t {
+  width: 90%;
+  background-color: #9147ff;
+  clip-path: polygon(
+    24% 0,
+    100% 0,
+    100% 53%,
+    65% 85%,
+    50% 85%,
+    26% 100%,
+    26% 85%,
+    0 85%,
+    0 22%
+  );
+}
+.t2 {
+  width: 100%;
+  background-color: #fff;
+  clip-path: polygon(
+    26% 8%,
+    93% 8%,
+    93% 49%,
+    76% 64%,
+    59% 64%,
+    44% 79%,
+    44% 64%,
+    26% 64%
+  );
+}
+
+.e1,
+.e2 {
+  width: 10%;
+  height: 50%;
+  background-color: #9147ff;
+  clip-path: polygon(0 40%, 100% 40%, 100% 100%, 0 100%);
+}
+.e1 {
+  margin-left: 45%;
+  float: left;
+}
+.e2 {
+  margin-left: 67%;
+}
