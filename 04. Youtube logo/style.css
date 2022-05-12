@@ -1,0 +1,17 @@
+.logo{
+  margin: 200px auto;
+  height: 150px;
+  width: 220px;
+  background: red;
+  		border-radius: 17% 17% 19% 17% / 31% 33% 35% 32%;
+}
+.it{
+  position: relative;
+  top: 50px;
+  left: 93px;
+  width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid white;
+	border-bottom: 25px solid transparent;
+}
