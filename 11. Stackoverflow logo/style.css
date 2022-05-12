@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Average+Sans);
+body{
+  background: url(https://subtlepatterns.com/patterns/squairy_light.png);
+}
+.stackoverflow{
+  margin: 225px auto;
+  width: 795px;
+}
+.icon, .logotext{
+  display: inline-block;
+}
+.icon{
+  width: 200px;
+  height: 100px;
+}
+.stack{
+  height: 80px;
+  border: 20px solid #818185;
+  border-top: none;
+  position: relative;
+}
+.bar{
+  position: absolute;
+  width: 130px;
+  height: 20px;
+}
+.bar1 {
+  background: #F47A20;
+  left: 15px;
+  bottom: 15px;
+}
+.bar2 {
+  background: #F47A20;
+  left: 15px;
+  bottom: 50px;
+  -webkit-transform:rotate(7deg);
+  -ms-transform:rotate(7deg);
+  -o-transform:rotate(7deg);
+  transform:rotate(7deg);
+}
+.bar3 {
+  background: #F47A20;
+  left: 20px;
+  bottom: 85px;
+  -webkit-transform:rotate(15deg);
+  -ms-transform:rotate(15deg);
+  -o-transform:rotate(15deg);
+  transform:rotate(15deg);
+}
+.bar4 {
+  background: #F47A20;
+  left: 38px;
+  bottom: 125px;
+  -webkit-transform:rotate(30deg);
+  -ms-transform:rotate(30deg);
+  -o-transform:rotate(30deg);
+  transform:rotate(30deg);
+}
+.bar5 {
+  background: #F47A20;
+  left: 75px;
+  bottom: 165px;
+  -webkit-transform:rotate(55deg);
+  -ms-transform:rotate(55deg);
+  -o-transform:rotate(55deg);
+  transform:rotate(55deg);
+}
+.bar6 {
+  background: #F47A20;
+  left: 125px;
+  bottom: 188px;
+  -webkit-transform:rotate(80deg);
+  -ms-transform:rotate(80deg);
+  -o-transform:rotate(80deg);
+  transform:rotate(80deg);
+}
+.logotext{
+  margin-left: 20px;
+}
+.logotext span{
+  font-family: 'Average Sans', sans-serif;
+  font-size: 100px;
+}
+.logotext span:first-child:after{
+  content: 'stack';
+}
+.logotext span:last-child:after{
+  content: 'overflow';
+  font-weight:800;
+}
