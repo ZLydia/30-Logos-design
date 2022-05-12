@@ -1,0 +1,38 @@
+body {
+   padding: 57.20px;
+   text-align: center;
+}
+
+.color1 {
+   background: rgb(242, 78, 30);
+   border-radius: 88px 0 0 88px;
+}
+
+.color2 {
+   background: rgb(255, 114, 98);
+   border-radius: 0 88px 88px 0;
+}
+
+.color3 {
+   background: rgb(162, 89, 255);
+   border-radius: 88px 0 0 88px;
+   transform: translateY(-3px);
+}
+
+.color4 {
+   background: rgb(26, 188, 254);
+   border-radius: 88px;
+   transform: translateY(-3px);
+}
+
+.color5 {
+   background: rgb(10, 207, 131);
+   border-radius: 88px 0 88px 88px;
+   transform: translate(-85px, -6px);
+}
+
+#figma {
+	display: inline-block;
+   width: 170px;
+   height: 170px;
+}
