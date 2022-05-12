@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.adobe-logo {
+  height: 100px;
+  width: 100px;
+  background: #FF0000;
+}
+
+.trapezoid-one {
+  border-bottom: 100px solid #FFFFFF;
+  border-left: 35px solid #FF0000;
+  border-right: 35px solid #FF0000;
+  position: relative;
+}
+
+.triangle {
+  position: absolute;
+  border-right: 25px solid #FFFFFF;
+  border-left: 25px solid #FFFFFF;
+  border-bottom: 65px solid #FF0000;
+  top: 35px;
+  left: -10px;
+}
+
+.trapezoid-two {
+  position: absolute;
+  border-bottom: 30px solid #FFFFFF;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  width: 50px;
+  top: 75px;
+  left: -20px;
+}
+
+h1 {
+  margin: 10px 0 0 0;
+}
