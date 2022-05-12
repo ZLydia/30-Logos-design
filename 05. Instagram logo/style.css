@@ -1,0 +1,83 @@
+body,
+.instagram-logo,
+.camera {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.camera,
+.camera:after {
+  border: 16px solid #fff;
+}
+
+body {
+  background: #fafafa;
+  min-height: 100vh;
+}
+
+.instagram-logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 70px;
+  background: 
+		-webkit-radial-gradient(
+			25% 110% circle,
+			#fccc63 0%,
+			#fbad50 30%,
+			#e95950 45%,
+			#bc2a8d 60%,
+			rgba(0, 0, 0, 0) 73%),
+		-webkit-linear-gradient(
+			330deg,
+			#4c68d7 15%,
+			#8a3ab9 48%
+		);
+  background:
+		radial-gradient(
+			circle at 25% 110%,
+			#fccc63 0%,
+			#fbad50 30%,
+			#e95950 45%,
+			#bc2a8d 60%,
+			rgba(0, 0, 0, 0) 73%),
+		linear-gradient(
+			120deg,
+			#4c68d7 15%,
+			#8a3ab9 48%
+		);
+}
+
+.camera {
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.camera:before {
+  content: '';
+  width: 23px;
+  height: 23px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 14px;
+	right: 14px;
+}
+
+.camera:after {
+  content: '';
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
